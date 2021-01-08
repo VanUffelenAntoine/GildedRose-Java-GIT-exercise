@@ -14,7 +14,7 @@ public class TestSwitchItem {
     void increaseQualitySwitch() {
         app.calculateNextDay();
         assert(app.items[0].sellIn == 9);
-        assert(app.items[0].quality == 22);
+        assert(app.items[0].quality == 21);
         app.items[0].sellIn = 10;
         app.items[0].quality = 50;
         app.calculateNextDay();
